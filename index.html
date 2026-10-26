@@ -177,6 +177,163 @@
         </div>
       </div>
     </section>
+
+    <section class="seccion" id="proyectos" aria-labelledby="titulo-proyectos">
+      <div class="contenedor">
+        <header class="seccion__encabezado">
+          <p class="seccion__numero">03</p>
+          <h2 class="seccion__titulo" id="titulo-proyectos">Proyectos</h2>
+        </header>
+        <p class="seccion__intro">
+          Tres trabajos que salieron de la carrera y de la meliponicultura. Los dos primeros
+          nacieron como proyectos personales y el último como herramienta de apoyo para los
+          dos anteriores.
+        </p>
+
+        <div class="proyectos">
+          <article class="proyecto">
+            <figure class="proyecto__figura">
+              <img class="proyecto__imagen" src="img/proyecto-melioraculo.svg"
+                alt="Mapa de riesgo de MeliOráculo con marcadores de colmenas y pronóstico de siete días">
+            </figure>
+            <div class="proyecto__cuerpo">
+              <p class="proyecto__tipo">Aplicación móvil y backend</p>
+              <h3 class="proyecto__titulo">MeliOráculo</h3>
+              <p class="proyecto__texto">
+                Prototipo para estimar la vulnerabilidad de colmenas de meliponas en la
+                provincia de Manabí. Cruza cinco factores ponderados —inundación,
+                deslizamiento, sequía, cercanía a ríos y áreas inundables— con datos abiertos
+                del SNGR, el MAAE, el IGM y el INAMHI, y calcula el pronóstico estacional en
+                un backend con FastAPI y PostGIS. Ganó la convocatoria Anticípate e Innova
+                (Categoría 1).
+              </p>
+              <ul class="proyecto__tecnologias">
+                <li>Flutter</li>
+                <li>FastAPI</li>
+                <li>PostGIS</li>
+                <li>Python</li>
+              </ul>
+              <a class="proyecto__enlace" href="https://github.com/carlosvillegas2733-rgb/melioraculo"
+                target="_blank" rel="noopener noreferrer">
+                Ver repositorio <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="proyecto proyecto--invertido">
+            <figure class="proyecto__figura">
+              <img class="proyecto__imagen" src="img/proyecto-sed.svg"
+                alt="Pantalla de SED con la onda de voz, el lote capturado y la lista de registros">
+            </figure>
+            <div class="proyecto__cuerpo">
+              <p class="proyecto__tipo">Aplicación móvil</p>
+              <h3 class="proyecto__titulo">SED · Sistema de Embarque Digital</h3>
+              <p class="proyecto__texto">
+                Captura de lotes por voz para el embarque de contenedores a −18 °C. El
+                operario dicta el número de lote y el reconocimiento corre sin internet con
+                Vosk sobre un Zebra TC26, así que funciona dentro de la cámara frigorífica,
+                con guantes y sin señal. La información se guarda en SQLite con migraciones
+                versionadas, auditoría y respaldo automático cuando el archivo se corrompe.
+              </p>
+              <ul class="proyecto__tecnologias">
+                <li>Flutter</li>
+                <li>Vosk</li>
+                <li>SQLite</li>
+              </ul>
+              <a class="proyecto__enlace" href="https://github.com/carlosvillegas2733-rgb/sed_app"
+                target="_blank" rel="noopener noreferrer">
+                Ver repositorio <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="proyecto">
+            <figure class="proyecto__figura">
+              <img class="proyecto__imagen" src="img/proyecto-api.svg"
+                alt="Consola mostrando la respuesta JSON de la API de trazabilidad">
+            </figure>
+            <div class="proyecto__cuerpo">
+              <p class="proyecto__tipo">API REST</p>
+              <h3 class="proyecto__titulo">Trazabilidad de meliponas</h3>
+              <p class="proyecto__texto">
+                API en TypeScript para registrar colmenas, visitas y cosechas, con PostgreSQL
+                como base de datos. Los prototipos de monitoreo envían lo que capturan cuando
+                recuperan conexión, de modo que el historial de cada colmena queda completo
+                aunque el trabajo de campo haya sido sin señal. Se levanta con Docker para
+                probarla en local.
+              </p>
+              <ul class="proyecto__tecnologias">
+                <li>TypeScript</li>
+                <li>PostgreSQL</li>
+                <li>Docker</li>
+              </ul>
+              <a class="proyecto__enlace"
+                href="https://github.com/carlosvillegas2733-rgb/trazabilidad-meliponas-api-"
+                target="_blank" rel="noopener noreferrer">
+                Ver repositorio <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--alterna" id="contacto" aria-labelledby="titulo-contacto">
+      <div class="contenedor">
+        <header class="seccion__encabezado">
+          <p class="seccion__numero">04</p>
+          <h2 class="seccion__titulo" id="titulo-contacto">Contacto</h2>
+        </header>
+        <p class="seccion__intro">
+          Si tienes un proyecto, una oferta de prácticas o una duda sobre alguno de los
+          trabajos, escríbeme. Reviso el correo todos los días.
+        </p>
+
+        <div class="contacto">
+          <form class="formulario" action="#" method="post">
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame qué necesitas"
+                required></textarea>
+            </div>
+            <button class="boton boton--principal" type="submit">Enviar mensaje</button>
+            <p class="formulario__nota">
+              Este formulario es demostrativo y todavía no envía datos a ningún servidor.
+            </p>
+          </form>
+
+          <aside class="contacto__datos">
+            <h3>Contacto directo</h3>
+            <p>
+              Para una respuesta más rápida, usa el correo o el perfil de GitHub.
+            </p>
+            <ul class="contacto__lista">
+              <li>
+                <span>Correo</span>
+                <a href="mailto:carlosvillegas_2732@gmail.com">carlosvillegas_2732@gmail.com</a>
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a href="https://github.com/carlosvillegas2733-rgb"
+                  target="_blank" rel="noopener noreferrer">carlosvillegas2733-rgb</a>
+              </li>
+              <li>
+                <span>Ubicación</span>
+                Guayaquil, Ecuador
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="pie">

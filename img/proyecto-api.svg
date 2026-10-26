@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="tituloApi">
+  <title id="tituloApi">Consola con una respuesta de la API de trazabilidad</title>
+
+  <rect width="800" height="560" fill="#f3ece0"/>
+  <rect x="40" y="56" width="720" height="448" rx="10" fill="#1b2b23"/>
+
+  <!-- Barra de la terminal -->
+  <path d="M40 66a10 10 0 0 1 10-10h700a10 10 0 0 1 10 10v28H40z" fill="#22392f"/>
+  <circle cx="64" cy="74" r="5" fill="#b3402f"/>
+  <circle cx="82" cy="74" r="5" fill="#c98a1e"/>
+  <circle cx="100" cy="74" r="5" fill="#4d7c5f"/>
+  <text x="400" y="79" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8b8271">api / trazabilidad-meliponas</text>
+
+  <g font-family="Consolas, monospace" font-size="14">
+    <text x="72" y="132" fill="#8b8271">$</text>
+    <text x="94" y="132" fill="#f7f0e4">curl -X POST /v1/colmenas -d @colmena.json</text>
+
+    <text x="72" y="166" fill="#7fb08a">201 Created</text>
+    <text x="72" y="192" fill="#c9bfae">content-type: application/json</text>
+
+    <text x="72" y="226" fill="#c9bfae">{</text>
+    <text x="94" y="252" fill="#e8c07a">"id"</text>
+    <text x="122" y="252" fill="#c9bfae">: "MQ-018",</text>
+    <text x="94" y="278" fill="#e8c07a">"ubicacion"</text>
+    <text x="184" y="278" fill="#c9bfae">: { "lat": -1.0547, "lng": -80.4545 },</text>
+    <text x="94" y="304" fill="#e8c07a">"visitas"</text>
+    <text x="166" y="304" fill="#c9bfae">: 4,</text>
+    <text x="94" y="330" fill="#e8c07a">"ultima_cosecha"</text>
+    <text x="238" y="330" fill="#c9bfae">: "2026-07-18",</text>
+    <text x="94" y="356" fill="#e8c07a">"estado"</text>
+    <text x="158" y="356" fill="#c9bfae">: "activa"</text>
+    <text x="72" y="382" fill="#c9bfae">}</text>
+
+    <text x="72" y="424" fill="#8b8271">-- 1 row affected in 18 ms</text>
+    <text x="72" y="464" fill="#8b8271">$</text>
+    <rect x="88" y="452" width="9" height="16" fill="#bf7218"/>
+  </g>
+</svg>

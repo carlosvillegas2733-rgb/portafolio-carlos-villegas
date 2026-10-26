@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="tituloMeli">
+  <title id="tituloMeli">Mapa de riesgo de MeliOráculo en la provincia de Manabí</title>
+
+  <rect width="800" height="560" fill="#f3ece0"/>
+  <rect x="24" y="24" width="752" height="512" rx="10" fill="#fffdf8" stroke="#ded1ba"/>
+
+  <!-- Barra superior -->
+  <path d="M24 34a10 10 0 0 1 10-10h732a10 10 0 0 1 10 10v46H24z" fill="#22392f"/>
+  <text x="48" y="58" font-family="Georgia, serif" font-size="19" fill="#f7f0e4">MeliOráculo</text>
+  <text x="648" y="57" font-family="Segoe UI, sans-serif" font-size="12" fill="#bdb3a2">Manabí, Ecuador</text>
+
+  <!-- Mapa -->
+  <rect x="24" y="80" width="752" height="380" fill="#e9efe5"/>
+  <path d="M70 112L300 94l220 26 180-18 40 200-142 118-300 8-218-98z" fill="#f1e7d0" stroke="#dbcaa9" stroke-width="2"/>
+  <path d="M226 122c34 78-26 158 34 288" fill="none" stroke="#9ec6d6" stroke-width="4"/>
+  <path d="M424 120c40 100-22 182 46 300" fill="none" stroke="#9ec6d6" stroke-width="4"/>
+  <path d="M560 150c-30 60 10 110-16 170" fill="none" stroke="#9ec6d6" stroke-width="3"/>
+
+  <!-- Marcadores -->
+  <g stroke="#fffdf8" stroke-width="3">
+    <path d="M196 182l14-8 14 8v16l-14 8-14-8z" fill="#4d7c5f"/>
+    <path d="M380 246l14-8 14 8v16l-14 8-14-8z" fill="#c98a1e"/>
+    <path d="M548 300l14-8 14 8v16l-14 8-14-8z" fill="#b3402f"/>
+    <path d="M300 330l12-7 12 7v14l-12 7-12-7z" fill="#4d7c5f"/>
+  </g>
+
+  <!-- Tarjeta de riesgo -->
+  <rect x="548" y="96" width="206" height="98" rx="6" fill="#fffdf8" stroke="#ded1ba"/>
+  <text x="566" y="122" font-family="Consolas, monospace" font-size="10" letter-spacing="1.6" fill="#8b8271">COLONIA MQ-018</text>
+  <text x="566" y="146" font-family="Georgia, serif" font-size="18" fill="#b3402f">Riesgo alto</text>
+  <rect x="566" y="158" width="168" height="8" fill="#ece3d2"/>
+  <rect x="566" y="158" width="131" height="8" fill="#b3402f"/>
+  <text x="566" y="184" font-family="Consolas, monospace" font-size="10" fill="#8b8271">0.78 / 1.00</text>
+
+  <!-- Panel inferior -->
+  <rect x="24" y="460" width="752" height="76" fill="#fffdf8" stroke="#ded1ba"/>
+  <text x="48" y="486" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4" fill="#8b8271">PRONÓSTICO 7 DÍAS</text>
+  <rect x="48" y="498" width="700" height="6" rx="3" fill="#ece3d2"/>
+  <rect x="48" y="498" width="298" height="6" rx="3" fill="#bf7218"/>
+  <circle cx="346" cy="501" r="8" fill="#bf7218" stroke="#fffdf8" stroke-width="3"/>
+  <text x="42" y="524" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b8271">Hoy</text>
+  <text x="154" y="524" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b8271">+1</text>
+  <text x="336" y="524" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b8271">+3</text>
+  <text x="520" y="524" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b8271">+5</text>
+  <text x="726" y="524" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b8271">+7</text>
+</svg>

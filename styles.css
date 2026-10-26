@@ -8,6 +8,7 @@
 :root {
   /* Colores */
   --color-fondo: #faf6ef;
+  --color-fondo-alterno: #f3ece0;
   --color-superficie: #ffffff;
   --color-tinta: #17150f;
   --color-tenue: #6b6459;
@@ -324,5 +325,149 @@ dl {
   font-size: 0.68rem;
   letter-spacing: 0.09em;
   text-align: center;
+  text-transform: uppercase;
+}
+
+/* 7. Encabezado de sección
+   ========================================================================== */
+.seccion {
+  padding: var(--espacio-xl) 0;
+  border-bottom: var(--borde);
+}
+
+.seccion--alterna {
+  background-color: var(--color-fondo-alterno);
+}
+
+.seccion__encabezado {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding-bottom: 0.7rem;
+  margin-bottom: var(--espacio-md);
+  border-bottom: 1px solid var(--color-linea);
+}
+
+.seccion__numero {
+  margin: 0;
+  color: var(--color-miel);
+  font-family: var(--fuente-monoespaciada);
+  font-size: 0.76rem;
+  letter-spacing: 0.16em;
+}
+
+.seccion__titulo {
+  font-size: clamp(1.85rem, 3.4vw, 2.55rem);
+}
+
+.seccion__intro {
+  max-width: 62ch;
+  margin-bottom: var(--espacio-lg);
+  color: var(--color-tenue);
+}
+
+/* 8. Sobre mí
+   ========================================================================== */
+.sobre-mi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espacio-lg);
+}
+
+.sobre-mi__texto {
+  flex: 1 1 520px;
+  max-width: 64ch;
+}
+
+.sobre-mi__texto p {
+  margin-bottom: var(--espacio-sm);
+  color: #332f27;
+}
+
+.sobre-mi__texto p:last-child {
+  margin-bottom: 0;
+}
+
+.ficha {
+  flex: 1 1 280px;
+  align-self: flex-start;
+  max-width: 340px;
+  padding-top: 0.6rem;
+  border-top: 3px solid var(--color-miel);
+}
+
+.ficha__fila {
+  padding: 0.7rem 0;
+  border-bottom: 1px dashed var(--color-linea);
+}
+
+.ficha dt {
+  color: var(--color-tenue);
+  font-family: var(--fuente-monoespaciada);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.ficha dd {
+  margin: 0.2rem 0 0;
+  font-size: 0.95rem;
+}
+
+/* 9. Habilidades
+   ========================================================================== */
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.habilidad {
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
+  padding: 1.35rem 1.3rem 1.2rem;
+  background-color: var(--color-superficie);
+  border: var(--borde);
+  border-radius: var(--radio);
+  transition: transform var(--transicion), box-shadow var(--transicion),
+    border-color var(--transicion);
+}
+
+.habilidad:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-tinta);
+  box-shadow: var(--sombra-dura);
+}
+
+.habilidad__numero {
+  margin-bottom: 0.9rem;
+  color: var(--color-miel);
+  font-family: var(--fuente-monoespaciada);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+}
+
+.habilidad__nombre {
+  margin-bottom: 0.35rem;
+  font-size: 1.18rem;
+}
+
+.habilidad__texto {
+  flex: 1;
+  margin-bottom: 0;
+  color: var(--color-tenue);
+  font-size: 0.92rem;
+}
+
+.habilidad__nivel {
+  align-self: flex-start;
+  margin: var(--espacio-sm) 0 0;
+  padding: 0.16rem 0.6rem;
+  border: 1px solid #e0c39a;
+  border-radius: 2px;
+  color: #8a5a15;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }

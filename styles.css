@@ -735,3 +735,148 @@ dl {
   color: #ffffff;
   border-color: var(--color-miel);
 }
+
+/* 13. Accesibilidad y movimiento
+   ========================================================================== */
+:focus-visible {
+  outline: 2px solid var(--color-miel);
+  outline-offset: 3px;
+}
+
+section {
+  scroll-margin-top: 96px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* 14. Diseño adaptable
+   ========================================================================== */
+@media (max-width: 980px) {
+  :root {
+    --espacio-xl: 4.2rem;
+  }
+
+  .heroe {
+    padding-top: var(--espacio-lg);
+  }
+
+  .heroe__figura {
+    flex: 0 1 280px;
+  }
+
+  .proyecto--invertido {
+    flex-direction: row;
+  }
+
+  .contacto__datos {
+    max-width: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .encabezado {
+    position: static;
+  }
+
+  .navegacion__lista {
+    gap: 0.3rem 1.05rem;
+  }
+
+  .heroe__interior {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--espacio-md);
+  }
+
+  .heroe__figura {
+    flex: 0 1 auto;
+    width: min(100%, 250px);
+  }
+
+  .heroe__texto {
+    flex: 1 1 auto;
+    max-width: none;
+  }
+
+  .sobre-mi {
+    gap: var(--espacio-md);
+  }
+
+  .ficha {
+    max-width: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .contenedor {
+    padding: 0 1.15rem;
+  }
+
+  .seccion {
+    padding: var(--espacio-lg) 0;
+  }
+
+  .seccion__encabezado {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .heroe__titulo {
+    font-size: clamp(2.15rem, 11vw, 3rem);
+  }
+
+  .heroe__acciones .boton {
+    flex: 1 1 100%;
+  }
+
+  .habilidad {
+    flex-basis: 100%;
+  }
+
+  .formulario {
+    padding: 1.25rem;
+  }
+
+  .proyecto {
+    gap: var(--espacio-sm);
+  }
+
+  .proyecto__titulo {
+    font-size: 1.4rem;
+  }
+
+  .pie__interior {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* 15. Impresión
+   ========================================================================== */
+@media print {
+  .encabezado,
+  .saltar,
+  .heroe__acciones {
+    display: none;
+  }
+
+  body {
+    background-color: #ffffff;
+  }
+
+  .seccion {
+    page-break-inside: avoid;
+  }
+}

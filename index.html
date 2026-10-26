@@ -24,11 +24,48 @@
           <small>Ingeniería en Sistemas Inteligentes</small>
         </span>
       </a>
+
+      <nav class="navegacion" aria-label="Menú principal">
+        <ul class="navegacion__lista">
+          <li><a class="navegacion__enlace" href="#inicio">Inicio</a></li>
+          <li><a class="navegacion__enlace" href="#sobre-mi">Sobre mí</a></li>
+          <li><a class="navegacion__enlace" href="#habilidades">Habilidades</a></li>
+          <li><a class="navegacion__enlace" href="#proyectos">Proyectos</a></li>
+          <li><a class="navegacion__enlace" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
   <main id="inicio">
-    <!-- Aquí se agregan las secciones del portafolio en los siguientes commits. -->
+    <section class="heroe" aria-labelledby="titulo-principal">
+      <div class="contenedor heroe__interior">
+        <div class="heroe__texto">
+          <p class="etiqueta">Portafolio personal · Guayaquil, Ecuador</p>
+          <h1 class="heroe__titulo" id="titulo-principal">
+            Carlos <span class="heroe__apellido">Villegas</span>
+          </h1>
+          <p class="heroe__subtitulo">Estudiante de Ingeniería en Sistemas Inteligentes</p>
+          <p class="heroe__descripcion">
+            Estudio en la Universidad ECOTEC y me interesan el desarrollo web, las APIs y el
+            análisis de datos aplicado a problemas concretos. Casi todo lo que he construido
+            gira alrededor de las abejas nativas sin aguijón: aplicaciones que registran
+            colmenas, calculan riesgo con datos abiertos del Ecuador y siguen funcionando
+            donde no hay señal.
+          </p>
+          <div class="heroe__acciones">
+            <a class="boton boton--principal" href="#proyectos">Ver proyectos</a>
+            <a class="boton" href="#contacto">Escríbeme</a>
+          </div>
+        </div>
+
+        <figure class="heroe__figura">
+          <img class="heroe__imagen" src="img/avatar.svg"
+            alt="Retrato ilustrado de Carlos Villegas con fondo de panal">
+          <figcaption class="heroe__leyenda">Guayaquil, Ecuador · 2026</figcaption>
+        </figure>
+      </div>
+    </section>
   </main>
 
   <footer class="pie">

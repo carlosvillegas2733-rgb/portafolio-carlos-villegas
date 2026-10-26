@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 680" role="img" aria-labelledby="tituloAvatar">
+  <title id="tituloAvatar">Retrato ilustrado de Carlos Villegas</title>
+
+  <rect width="560" height="680" fill="#f3e5cd"/>
+
+  <!-- Panal de fondo -->
+  <g stroke="#e4cda8" stroke-width="2" fill="none" opacity="0.85">
+    <path d="M60 40l26 15v30l-26 15-26-15V55z"/>
+    <path d="M112 100l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M60 160l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M112 220l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M500 40l26 15v30l-26 15-26-15V55z"/>
+    <path d="M448 100l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M500 160l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M448 220l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M60 520l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M112 580l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M500 520l26 15v30l-26 15-26-15v-30z"/>
+    <path d="M448 580l26 15v30l-26 15-26-15v-30z"/>
+  </g>
+
+  <!-- Hombros y camisa -->
+  <path d="M104 680c0-118 72-182 176-182s176 64 176 182z" fill="#22392f"/>
+  <path d="M232 500l48 62 48-62 24 14-72 92-72-92z" fill="#f7f0e4"/>
+
+  <!-- Cuello -->
+  <rect x="243" y="418" width="74" height="102" rx="30" fill="#d99e6f"/>
+
+  <!-- Orejas -->
+  <ellipse cx="176" cy="342" rx="17" ry="25" fill="#e8b48a"/>
+  <ellipse cx="384" cy="342" rx="17" ry="25" fill="#e8b48a"/>
+
+  <!-- Rostro -->
+  <ellipse cx="280" cy="330" rx="104" ry="119" fill="#e8b48a"/>
+
+  <!-- Cabello -->
+  <path d="M176 330c-14-120 62-165 104-165s118 45 104 165c0-22-8-42-20-52-16-14-38 2-64 2-26 0-46-18-68-6-16 9-24 24-26 56z" fill="#2b2118"/>
+
+  <!-- Cejas -->
+  <path d="M209 301q27-11 54 0" fill="none" stroke="#2b2118" stroke-width="6" stroke-linecap="round"/>
+  <path d="M297 301q27-11 54 0" fill="none" stroke="#2b2118" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Gafas -->
+  <g fill="none" stroke="#2b2118" stroke-width="4">
+    <rect x="203" y="318" width="66" height="50" rx="12"/>
+    <rect x="291" y="318" width="66" height="50" rx="12"/>
+    <path d="M269 340h22"/>
+    <path d="M203 332l-25-6"/>
+    <path d="M357 332l25-6"/>
+  </g>
+
+  <!-- Ojos -->
+  <circle cx="236" cy="343" r="5.5" fill="#2b2118"/>
+  <circle cx="324" cy="343" r="5.5" fill="#2b2118"/>
+
+  <!-- Nariz y boca -->
+  <path d="M280 356v30q9 6 17 0" fill="none" stroke="#c98d63" stroke-width="4" stroke-linecap="round"/>
+  <path d="M257 412q23 16 46 0" fill="none" stroke="#ad6844" stroke-width="5" stroke-linecap="round"/>
+</svg>

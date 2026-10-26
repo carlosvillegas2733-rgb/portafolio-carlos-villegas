@@ -74,7 +74,7 @@ portafolio-carlos-villegas/
 | Inicio | Título principal, descripción personal, avatar y accesos |
 | Sobre mí | Presentación, intereses y objetivos académicos |
 | Habilidades | Seis habilidades con su nivel real de manejo |
-| Proyectos | MeliOráculo, SED y la API de trazabilidad, con imagen y enlace |
+| Proyectos | MeliOráculo, SED y la API de trazabilidad, con imagen y tecnologías |
 | Contacto | Formulario demostrativo (nombre, correo y mensaje) y datos directos |
 | Pie de página | Nombre, año y enlace al perfil de GitHub |
 

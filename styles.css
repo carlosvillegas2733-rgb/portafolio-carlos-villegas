@@ -553,24 +553,6 @@ dl {
   text-transform: uppercase;
 }
 
-.proyecto__enlace {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding-bottom: 3px;
-  border-bottom: 1px solid var(--color-miel);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: gap var(--transicion), color var(--transicion);
-}
-
-.proyecto__enlace:hover {
-  gap: 0.75rem;
-  color: var(--color-miel);
-}
-
 /* 11. Contacto
    ========================================================================== */
 .contacto {

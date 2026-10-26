@@ -38,7 +38,7 @@
 
   <!-- Encabezado -->
   <text x="312" y="86" font-family="Georgia, serif" font-size="18" fill="#22392f">SED</text>
-  <text x="312" y="104" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b8271">Embarque 12 · Contenedor DUF-4471</text>
+  <text x="312" y="104" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b8271">Embarque 12 · DUF-4471</text>
   <rect x="404" y="72" width="86" height="18" rx="3" fill="#f3e5cd"/>
   <text x="412" y="85" font-family="Consolas, monospace" font-size="9" letter-spacing="1" fill="#8a5a15">SIN SEÑAL</text>
 

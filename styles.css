@@ -1,0 +1,116 @@
+/* ==========================================================================
+   Portafolio personal - Carlos Villegas
+   Universidad ECOTEC | Programación de Sistemas Web
+   ========================================================================== */
+
+/* 1. Variables del proyecto
+   ========================================================================== */
+:root {
+  /* Colores */
+  --color-fondo: #faf6ef;
+  --color-superficie: #ffffff;
+  --color-tinta: #17150f;
+  --color-tenue: #6b6459;
+  --color-miel: #bf7218;
+  --color-miel-suave: #f3e5cd;
+  --color-linea: #ded1ba;
+  --color-bosque: #22392f;
+  --color-crema: #f7f0e4;
+
+  /* Tipografías */
+  --fuente-titulos: "Lora", Georgia, "Times New Roman", serif;
+  --fuente-texto: "Karla", "Segoe UI", Tahoma, sans-serif;
+  --fuente-monoespaciada: ui-monospace, "Cascadia Mono", Consolas, monospace;
+
+  /* Medidas */
+  --ancho-contenedor: 1120px;
+  --espacio-xs: 0.5rem;
+  --espacio-sm: 1rem;
+  --espacio-md: 1.75rem;
+  --espacio-lg: 3rem;
+  --espacio-xl: 5.5rem;
+
+  /* Bordes y efectos */
+  --radio: 4px;
+  --borde: 1px solid var(--color-linea);
+  --sombra-dura: 6px 6px 0 rgba(23, 21, 15, 0.08);
+  --transicion: 180ms ease;
+}
+
+/* 2. Normalización y base
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-fondo);
+  color: var(--color-tinta);
+  font-family: var(--fuente-texto);
+  font-size: 1rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--fuente-titulos);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0 0 var(--espacio-sm);
+}
+
+ul,
+dl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 3. Estructura general
+   ========================================================================== */
+.contenedor {
+  width: 100%;
+  max-width: var(--ancho-contenedor);
+  margin: 0 auto;
+  padding: 0 var(--espacio-md);
+}
+
+.saltar {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: var(--espacio-sm) var(--espacio-md);
+  background-color: var(--color-bosque);
+  color: var(--color-crema);
+  z-index: 10;
+}
+
+.saltar:focus {
+  left: var(--espacio-sm);
+  top: var(--espacio-sm);
+}

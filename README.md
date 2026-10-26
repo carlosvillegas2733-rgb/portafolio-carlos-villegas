@@ -6,6 +6,7 @@ Sistemas Web** de la **Universidad ECOTEC**.
 - **Estudiante:** Carlos Julio Villegas Bravo
 - **Carrera:** Ingeniería en Sistemas Inteligentes
 - **Universidad:** Universidad ECOTEC, Guayaquil (Ecuador)
+- **Sitio publicado:** <https://carlosvillegas2733-rgb.github.io/portafolio-carlos-villegas/>
 
 ![Vista del portafolio](img/captura-portafolio.png)
 
@@ -49,16 +50,18 @@ portafolio-carlos-villegas/
 
 ## Cómo visualizar el proyecto
 
-1. Clona el repositorio:
+1. Abre el sitio publicado: <https://carlosvillegas2733-rgb.github.io/portafolio-carlos-villegas/>
+
+2. Para verlo en local, clona el repositorio:
 
    ```bash
    git clone https://github.com/carlosvillegas2733-rgb/portafolio-carlos-villegas.git
    ```
 
-2. Entra a la carpeta y abre `index.html` con doble clic en cualquier navegador.
+3. Entra a la carpeta y abre `index.html` con doble clic en cualquier navegador.
    No hace falta servidor web ni instalar dependencias.
 
-3. Si prefieres levantarlo con un servidor local:
+4. Si prefieres levantarlo con un servidor local:
 
    ```bash
    python -m http.server 8000
